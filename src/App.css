@@ -1,7 +1,10 @@
-body {
-  background-color: whitesmoke;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/montserrat/Montserrat-Regular.ttf') format('truetype'); /* Replace 'custom-font.ttf' with the actual font file name and format. */
+  /* You can also provide other font formats like woff and woff2 and their respective URLs for better browser support. */
 }
 
-.login-card {
-  max-width: 400px;
+body {
+  background-color: whitesmoke;
+  font-family: 'Montserrat';
 }
